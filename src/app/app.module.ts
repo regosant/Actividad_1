@@ -13,12 +13,12 @@ import { APP_ROUTING } from "./app.routes";
 //  COMPONENTES 
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
-import { HeroesComponent } from './components/heroes/heroes.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { HeroesComponent } from './components/heroes/heroes.component';
 import { HeroeComponent } from './components/heroe/heroe.component';
-import { BuscadorComponent } from './components/buscador/buscador.component';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
+import { BuscadorComponent } from './components/buscador/buscador.component';
 import { VillanosComponent } from './components/villanos/villanos.component';
 import { VillanoComponent } from './components/villano/villano.component';
 import { VillanoTarjetaComponent } from './components/villano-tarjeta/villano-tarjeta.component';
@@ -29,12 +29,12 @@ import { VillanoTarjetaComponent } from './components/villano-tarjeta/villano-ta
   declarations: [
     AppComponent,
     AboutComponent,
-    HeroesComponent,
     HomeComponent,
     NavbarComponent,
+    HeroesComponent,
     HeroeComponent,
-    BuscadorComponent,
     HeroeTarjetaComponent,
+    BuscadorComponent,
     VillanosComponent,
     VillanoComponent,
     VillanoTarjetaComponent

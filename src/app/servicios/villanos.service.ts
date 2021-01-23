@@ -77,7 +77,7 @@ export class VillanosService {
         let nombre = villano.nombre.toLowerCase();
   
         if( nombre.indexOf( termino ) >= 0  ){
-          
+          villano.idx = i;
           villanosArr.push(villano )
         }
   
@@ -94,5 +94,5 @@ export class VillanosService {
     img: string;
     aparicion: string;
     casa: string;
-  
+    idx?:number;
   }
